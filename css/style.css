@@ -1,0 +1,155 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    color: #fbd46d;
+    font-size: 562.5%;
+    /* 100% = 16px*/
+    margin: 50px 0 auto 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #fbd46d;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 2px;
+}
+
+h3 {
+    color: #4f8a8b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #127681;
+    border-width: 7px;
+    width: 3%;
+    margin: 100px auto;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f6ff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #127681;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+}
+
+.rohan-img {
+    width: 25%;
+}
+
+.top-container {
+    background-color: #f4f6ff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.copy-right {
+    color: #FFFFFF;
+}
+
+.contact-me {
+    padding-bottom: 5%;
+}
+
+.bottom-container {
+    background-color: #4f8a8b;
+    height: 120px;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0px;
+    line-height: 0px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    width: 137px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    padding: 22px;
+    background-color: #4F8A8B;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.skill-row {
+    width: 40%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 20%;
+}
+
+.rohan-img {
+    width: 10%;
+}
+
+.py-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
